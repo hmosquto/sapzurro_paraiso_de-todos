@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://sapzurro.com/</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://sapzurro.com/img/Imgane1.jpg</image:loc>
+      <image:title>Vista panorámica de Sapzurro</image:title>
+      <image:caption>Paraíso natural en el Caribe colombiano</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Como Llegar -->
+  <url>
+    <loc>https://sapzurro.com/como-llegar.html</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Hospedaje -->
+  <url>
+    <loc>https://sapzurro.com/hospedaje.html</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Galería -->
+  <url>
+    <loc>https://sapzurro.com/galeria.html</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sapzurro.com/img/Imgane2.jpg</image:loc>
+      <image:title>Playa cristalina de Sapzurro</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sapzurro.com/img/Imgane3.jpg</image:loc>
+      <image:title>Senderos naturales en la selva</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Contacto -->
+  <url>
+    <loc>https://sapzurro.com/contacto.html</loc>
+    <lastmod>2024-12-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>

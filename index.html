@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sapzurro Paraíso de Todos</title>
+  <meta name="description" content="Descubre Sapzurro, un paraíso natural en el Chocó, Colombia. Información, fotos, videos, cultura, gastronomía y aventuras.">
+  <meta name="keywords" content="Sapzurro, Chocó, Colombia, turismo, playa, Caribe, naturaleza, hospedaje, tours">
+  <meta name="author" content="Sapzurro Paraíso de Todos">
+  <link rel="canonical" href="https://sapzurro.com/">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Sapzurro Paraíso de Todos - Destino Caribeño en Colombia">
+  <meta property="og:description" content="Descubre Sapzurro, paraíso natural en el Chocó, Colombia. Playas cristalinas, naturaleza exuberante y cultura auténtica.">
+  <meta property="og:image" content="https://sapzurro.com/img/Imgane1.jpg">
+  <meta property="og:url" content="https://sapzurro.com">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Sapzurro Paraíso de Todos">
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sapzurro Paraíso de Todos - Destino Caribeño">
+  <meta name="twitter:description" content="Descubre Sapzurro, paraíso natural en el Chocó, Colombia">
+  <meta name="twitter:image" content="https://sapzurro.com/img/Imgane1.jpg">
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/facebook-elegant-styles.css">
+  <link rel="stylesheet" href="css/map-expanded-styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Quicksand:400,700&display=swap" rel="stylesheet">
+  <link rel="icon" href="img/favicon.ico">
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js" defer></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  
+  <!-- Structured Data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TouristDestination",
+    "name": "Sapzurro",
+    "description": "Paraíso natural en el Caribe colombiano, ubicado en el departamento del Chocó",
+    "image": [
+      "https://sapzurro.com/img/Imgane1.jpg",
+      "https://sapzurro.com/img/Imgane2.jpg",
+      "https://sapzurro.com/img/Imgane3.jpg"
+    ],
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "8.6667",
+      "longitude": "-77.3667"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sapzurro",
+      "addressRegion": "Chocó",
+      "addressCountry": "Colombia"
+    },
+    "telephone": "+57 313 577 6863",
+    "email": "sapzurroparaisodetodos@gmail.com",
+    "url": "https://sapzurro.com",
+    "sameAs": [
+      "https://www.facebook.com/Sapzurro1",
+      "https://wa.me/573135776863"
+    ],
+    "touristType": [
+      "Ecoturismo",
+      "Turismo de playa",
+      "Turismo cultural",
+      "Turismo de aventura"
+    ],
+    "availableLanguage": "Spanish",
+    "currenciesAccepted": "COP",
+    "paymentAccepted": "Cash, Credit Card",
+    "priceRange": "$$"
+  }
+  </script>
+</head>
+<body>
+  <!-- Skip Links for Accessibility -->
+  <div class="skip-links">
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+    <a href="#navigation" class="skip-link">Saltar a navegación</a>
+    <a href="#footer" class="skip-link">Saltar al pie de página</a>
+  </div>
+
+  <nav class="menu" aria-label="Menú principal" role="navigation" id="navigation">
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+    <ul id="menuList">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="como-llegar.html">Cómo Llegar</a></li>
+      <li><a href="hospedaje.html">Hospedaje</a></li>
+      <li><a href="galeria.html">Galería</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li class="language-switcher">
+        <button id="langToggle" class="lang-btn" aria-label="Cambiar idioma">
+          <span class="lang-flag">🇪🇸</span>
+          <span class="lang-text">ES</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+  <header class="hero">
+    <img src="img/Imgane1.jpg" alt="Vista panorámica de Sapzurro" class="hero-bg" loading="lazy">
+    <div class="hero-content">
+      <h1 class="hero-titulo">Sapzurro <span>Paraíso de Todos</span></h1>
+      <div class="hero-marquee">
+        <span>Bienvenidos a Sapzurro, el rincón del paraíso que todos soñamos</span>
+      </div>
+      <a href="#galeria-titulo" class="boton cta-galeria">Ver Galería</a>
+      <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+    </div>
+  </header>
+
+<main id="main-content">
+  <!-- Breadcrumb Navigation -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <ol class="breadcrumb-list">
+      <li class="breadcrumb-item">
+        <a href="index.html" aria-label="Inicio" data-translate="Inicio">🏠 Inicio</a>
+      </li>
+    </ol>
+  </nav>
+
+  <!-- SECCIÓN BIENVENIDA -->
+  <section class="bienvenida">
+    <div class="bienvenida-contenido">
+      <div class="bienvenida-texto">
+        <h2 data-translate="Bienvenidos a Sapzurro">Bienvenidos a Sapzurro</h2>
+        <p data-translate="Ubicado en el extremo norte del departamento del Chocó, en el municipio de Acandí, Sapzurro es un corregimiento que se distingue por su belleza natural excepcional, su rica herencia cultural afrocaribeña y la calidez incomparable de su gente.">
+          Ubicado en el extremo norte del departamento del Chocó, en el municipio de Acandí, Sapzurro es un corregimiento que se distingue por su belleza natural excepcional, su rica herencia cultural afrocaribeña y la calidez incomparable de su gente.
+        </p>
+        <p class="bienvenida-destacado" data-translate="Un paraíso donde el Caribe colombiano se encuentra con la frontera panameña, ofreciendo experiencias únicas de ecoturismo, playas cristalinas y aventuras inolvidables.">
+          Un paraíso donde el Caribe colombiano se encuentra con la frontera panameña, ofreciendo experiencias únicas de ecoturismo, playas cristalinas y aventuras inolvidables.
+        </p>
+        <a href="#galeria-titulo" class="boton" data-translate="Ver Galería">Ver Galería</a>
+      </div>
+      <div class="bienvenida-imagen">
+        <img class="imagen-principal" src="img/Imgane1.jpg" alt="Vista principal de Sapzurro">
+        <div class="mini-galeria">
+          <img src="img/Imgane2.jpg" alt="Playa cristalina de Sapzurro" title="Playa cristalina de Sapzurro">
+          <img src="img/Imgane3.jpg" alt="Senderos naturales en la selva" title="Senderos naturales en la selva">
+          <img src="img/Imgane4.jpg" alt="Atardecer en la bahía" title="Atardecer en la bahía">
+          <img src="img/Imgane5.jpg" alt="Vida comunitaria local" title="Vida comunitaria local">
+          <img src="img/Imgane8.jpg" alt="Flora tropical exuberante" title="Flora tropical exuberante">
+          <img src="img/Imgane9.jpg" alt="Costa caribeña de Sapzurro" title="Costa caribeña de Sapzurro">
+          <img src="img/Imgane10.jpg" alt="Tradiciones culturales" title="Tradiciones culturales">
+          <img src="img/Imgane11.jpg" alt="Biodiversidad natural" title="Biodiversidad natural">
+          <img src="img/Imgane13.jpg" alt="Aguas turquesas del Caribe" title="Aguas turquesas del Caribe">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN GALERÍA PREVIEW -->
+  <section class="galeria-preview" aria-labelledby="galeria-titulo">
+    <h2 id="galeria-titulo" data-translate="Explora Sapzurro en Imágenes">Explora Sapzurro en Imágenes</h2>
+    <div class="galeria-filtros">
+      <button data-filtro="todas" class="filtro-activo" data-translate="Todas">Todas</button>
+      <button data-filtro="playas" data-translate="Playas">Playas</button>
+      <button data-filtro="naturaleza" data-translate="Naturaleza">Naturaleza</button>
+      <button data-filtro="comunidad" data-translate="Comunidad">Comunidad</button>
+    </div>
+    <div class="galeria-grid">
+      <figure data-categoria="playas">
+        <img src="img/Imgane1.jpg" alt="Vista panorámica de Sapzurro" title="Vista panorámica de Sapzurro">
+        <figcaption data-translate="Vista panorámica de Sapzurro">Vista panorámica de Sapzurro</figcaption>
+      </figure>
+      <figure data-categoria="playas">
+        <img src="img/Imgane2.jpg" alt="Playa cristalina de Sapzurro" title="Playa cristalina de Sapzurro">
+        <figcaption data-translate="Playa cristalina de Sapzurro">Playa cristalina de Sapzurro</figcaption>
+      </figure>
+      <figure data-categoria="naturaleza">
+        <img src="img/Imgane3.jpg" alt="Senderos naturales en la selva" title="Senderos naturales en la selva">
+        <figcaption data-translate="Senderos naturales en la selva">Senderos naturales en la selva</figcaption>
+      </figure>
+      <figure data-categoria="naturaleza">
+        <img src="img/Imgane4.jpg" alt="Atardecer en la bahía" title="Atardecer en la bahía">
+        <figcaption data-translate="Atardecer en la bahía">Atardecer en la bahía</figcaption>
+      </figure>
+      <figure data-categoria="comunidad">
+        <img src="img/Imgane5.jpg" alt="Vida comunitaria local" title="Vida comunitaria local">
+        <figcaption data-translate="Vida comunitaria local">Vida comunitaria local</figcaption>
+      </figure>
+      <figure data-categoria="naturaleza">
+        <img src="img/Imgane8.jpg" alt="Flora tropical exuberante" title="Flora tropical exuberante">
+        <figcaption data-translate="Flora tropical exuberante">Flora tropical exuberante</figcaption>
+      </figure>
+      <figure data-categoria="playas">
+        <img src="img/Imgane9.jpg" alt="Costa caribeña de Sapzurro" title="Costa caribeña de Sapzurro">
+        <figcaption data-translate="Costa caribeña de Sapzurro">Costa caribeña de Sapzurro</figcaption>
+      </figure>
+      <figure data-categoria="comunidad">
+        <img src="img/Imgane10.jpg" alt="Tradiciones culturales" title="Tradiciones culturales">
+        <figcaption data-translate="Tradiciones culturales">Tradiciones culturales</figcaption>
+      </figure>
+      <figure data-categoria="naturaleza">
+        <img src="img/Imgane11.jpg" alt="Biodiversidad natural" title="Biodiversidad natural">
+        <figcaption data-translate="Biodiversidad natural">Biodiversidad natural</figcaption>
+      </figure>
+      <figure data-categoria="playas">
+        <img src="img/Imgane13.jpg" alt="Aguas turquesas del Caribe" title="Aguas turquesas del Caribe">
+        <figcaption data-translate="Aguas turquesas del Caribe">Aguas turquesas del Caribe</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Lightbox para galería -->
+  <div id="lightbox" class="lightbox">
+    <span class="lightbox-close" id="lightboxClose">&times;</span>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="">
+    <div class="lightbox-caption" id="lightboxCaption"></div>
+  </div>
+
+  <!-- SECCIÓN ACTIVIDADES Y EXPERIENCIAS -->
+  <section class="actividades" aria-labelledby="actividades-titulo">
+    <h2 id="actividades-titulo" data-translate="Experiencias Únicas en Sapzurro">Experiencias Únicas en Sapzurro</h2>
+    <div class="actividades-grid">
+      <div class="actividad">
+        <div class="actividad-icon">🏊‍♂️</div>
+        <h3 data-translate="Snorkel en La Miel">Snorkel en La Miel</h3>
+        <p data-translate="Explora los arrecifes de coral y la vida marina en aguas cristalinas">Explora los arrecifes de coral y la vida marina en aguas cristalinas</p>
+        <div class="actividad-precio">Desde $50.000</div>
+      </div>
+      <div class="actividad">
+        <div class="actividad-icon">🚤</div>
+        <h3 data-translate="Tour en Lancha">Tour en Lancha</h3>
+        <p data-translate="Recorre la costa y descubre playas escondidas del Caribe">Recorre la costa y descubre playas escondidas del Caribe</p>
+        <div class="actividad-precio">Desde $80.000</div>
+      </div>
+      <div class="actividad">
+        <div class="actividad-icon">🥾</div>
+        <h3 data-translate="Caminata Ecológica">Caminata Ecológica</h3>
+        <p data-translate="Senderos por la selva tropical con guías locales expertos">Senderos por la selva tropical con guías locales expertos</p>
+        <div class="actividad-precio">Desde $30.000</div>
+      </div>
+      <div class="actividad">
+        <div class="actividad-icon">🐠</div>
+        <h3 data-translate="Pesca Deportiva">Pesca Deportiva</h3>
+        <p data-translate="Experiencia de pesca en alta mar con equipos profesionales">Experiencia de pesca en alta mar con equipos profesionales</p>
+        <div class="actividad-precio">Desde $120.000</div>
+      </div>
+      <div class="actividad">
+        <div class="actividad-icon">🌅</div>
+        <h3 data-translate="Tour Fotográfico">Tour Fotográfico</h3>
+        <p data-translate="Captura los mejores momentos con un fotógrafo profesional">Captura los mejores momentos con un fotógrafo profesional</p>
+        <div class="actividad-precio">Desde $100.000</div>
+      </div>
+      <div class="actividad">
+        <div class="actividad-icon">🍽️</div>
+        <h3 data-translate="Experiencia Gastronómica">Experiencia Gastronómica</h3>
+        <p data-translate="Degusta la auténtica cocina del Caribe con ingredientes locales">Degusta la auténtica cocina del Caribe con ingredientes locales</p>
+        <div class="actividad-precio">Desde $60.000</div>
+      </div>
+    </div>
+    <div class="actividades-cta">
+        <a href="tel:+573135776863" class="boton-principal cta-enhanced" data-translate="Llamar Ahora">📞 Llamar Ahora</a>
+        <a href="https://wa.me/573135776863" class="boton-secundario cta-enhanced" target="_blank" rel="noopener noreferrer" data-translate="WhatsApp">💬 WhatsApp</a>
+        <a href="hospedaje.html" class="boton-reserva cta-enhanced" data-translate="Reservar Hospedaje">🏨 Reservar Hospedaje</a>
+    </div>
+  </section>
+
+  <!-- CÓMO LLEGAR A SAPZURRO -->
+  <section class="como-llegar-home" aria-labelledby="llegar-titulo">
+    <h2 id="llegar-titulo" data-translate="¿Cómo llegar a Sapzurro?">¿Cómo llegar a Sapzurro?</h2>
+        <div class="ruta-completa-detallada">
+          <!-- PRIMERA FILA: 3 PASOS -->
+          <div class="fila-pasos primera-fila">
+            <!-- PASO 1: VUELOS -->
+            <div class="paso-detallado">
+              <div class="paso-header">
+                <div class="paso-numero">1</div>
+                <h3 data-translate="Vuelos a Apartadó/Montería/Capurganá">✈️ Vuelos a Apartadó/Montería/Capurganá</h3>
+                <p data-translate="Desde Bogotá o Medellín → Apartadó/Montería/Capurganá/Acandí">Desde Bogotá o Medellín → Apartadó/Montería/Capurganá/Acandí</p>
+              </div>
+              
+              <div class="precio-principal">
+                <span class="desde">Desde</span>
+                <span class="precio-grande" id="flight-main-price">$170.000</span>
+                <button class="refresh-btn" onclick="updateFlightPrices()" title="Actualizar precios">🔄</button>
+              </div>
+              
+              <div class="aereolineas-lista">
+                <div class="aerolinea">
+                  <span class="aerolinea-logo">🛩️</span>
+                  <div class="aerolinea-info">
+                    <span class="aerolinea-nombre">SATENA</span>
+                    <span class="ruta-detalle">Bogotá/Medellín → Apartadó</span>
+                  </div>
+                  <div class="precio-duracion">
+                    <span class="precio">$184.457</span>
+                    <span class="duracion">1h 30min</span>
+                  </div>
+                </div>
+                <div class="aerolinea">
+                  <span class="aerolinea-logo">✈️</span>
+                  <div class="aerolinea-info">
+                    <span class="aerolinea-nombre">CLIC</span>
+                    <span class="ruta-detalle">Bogotá/Medellín → Apartadó</span>
+                  </div>
+                  <div class="precio-duracion">
+                    <span class="precio">$206.705</span>
+                    <span class="duracion">1h 45min</span>
+                  </div>
+                </div>
+                <div class="aerolinea">
+                  <span class="aerolinea-logo">🔴</span>
+                  <div class="aerolinea-info">
+                    <span class="aerolinea-nombre">AVIANCA</span>
+                    <span class="ruta-detalle">Bogotá/Medellín → Montería</span>
+                  </div>
+                  <div class="precio-duracion">
+                    <span class="precio">$170.000</span>
+                    <span class="duracion">1h 25min</span>
+                  </div>
+                </div>
+                <div class="aerolinea">
+                  <span class="aerolinea-logo">🚁</span>
+                  <div class="aerolinea-info">
+                    <span class="aerolinea-nombre">HELICÓPTERO</span>
+                    <span class="ruta-detalle">Medellín → Capurganá (Directo)</span>
+                  </div>
+                  <div class="precio-duracion">
+                    <span class="precio">$380.000</span>
+                    <span class="duracion">50min</span>
+                  </div>
+                </div>
+                <div class="aerolinea">
+                  <span class="aerolinea-logo">🛩️</span>
+                  <div class="aerolinea-info">
+                    <span class="aerolinea-nombre">SATENA</span>
+                    <span class="ruta-detalle">Bogotá/Medellín → Capurganá</span>
+                  </div>
+                  <div class="precio-duracion">
+                    <span class="precio">$220.000</span>
+                    <span class="duracion">1h 15min</span>
+                  </div>
+                </div>
+                <div class="aerolinea">
+                  <span class="aerolinea-logo">✈️</span>
+                  <div class="aerolinea-info">
+                    <span class="aerolinea-nombre">CLIC</span>
+                    <span class="ruta-detalle">Medellín → Acandí</span>
+                  </div>
+                  <div class="precio-duracion">
+                    <span class="precio">$195.000</span>
+                    <span class="duracion">1h 10min</span>
+                  </div>
+                </div>
+              </div>
+              <!-- Nota de precios promedio -->
+              <div class="precio-disclaimer-buses">
+                <p><strong>📋 Nota importante:</strong> Los precios mostrados son promedios referenciales. Para tarifas exactas, horarios y disponibilidad, consulte las páginas oficiales:</p>
+                <div class="enlaces-oficiales">
+                  <a href="https://www.satena.com" target="_blank" rel="noopener noreferrer">🛩️ Satena</a>
+                  <a href="https://www.clic.com.co" target="_blank" rel="noopener noreferrer">✈️ Clic</a>
+                  <a href="https://www.avianca.com" target="_blank" rel="noopener noreferrer">🔴 Avianca</a>
+                  <a href="https://www.despegar.com.co" target="_blank" rel="noopener noreferrer">🌐 Despegar</a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- PASO 2: BUS -->
+            <div class="paso-detallado">
+              <div class="paso-header">
+                <div class="paso-numero">2</div>
+                <h3>🚌 Bus a Turbo/Necoclí</h3>
+                <p>Desde Medellín → Turbo/Necoclí</p>
+              </div>
+              
+              <div class="precio-principal">
+                <span class="desde">Desde</span>
+                <span class="precio-grande" id="bus-main-price">$75.000</span>
+                <button class="refresh-btn" onclick="updateBusPrices()" title="Actualizar precios">🔄</button>
+              </div>
+              
+              <div class="empresas-lista">
+                <div class="empresa-bus">
+                  <span class="empresa-logo">🟢</span>
+                  <div class="empresa-info">
+                    <span class="empresa-nombre">GÓMEZ HERNÁNDEZ</span>
+                    <span class="ruta-detalle">Medellín → Turbo</span>
+                  </div>
+                  <div class="precio-info">
+                    <span class="precio">$75.000</span>
+                    <span class="duracion">6h 30min</span>
+                  </div>
+                </div>
+                <div class="empresa-bus">
+                  <span class="empresa-logo">🔵</span>
+                  <div class="empresa-info">
+                    <span class="empresa-nombre">COOTRANSUROCCIDENTE</span>
+                    <span class="ruta-detalle">Medellín → Turbo</span>
+                  </div>
+                  <div class="precio-info">
+                    <span class="precio">$81.000</span>
+                    <span class="duracion">6h 45min</span>
+                  </div>
+                </div>
+                <div class="empresa-bus">
+                  <span class="empresa-logo">🟡</span>
+                  <div class="empresa-info">
+                    <span class="empresa-nombre">SOTRAURABÁ</span>
+                    <span class="ruta-detalle">Medellín → Turbo</span>
+                  </div>
+                  <div class="precio-info">
+                    <span class="precio">$77.000</span>
+                    <span class="duracion">6h 30min</span>
+                  </div>
+                </div>
+                <div class="empresa-bus">
+                  <span class="empresa-logo">🔴</span>
+                  <div class="empresa-info">
+                    <span class="empresa-nombre">RÁPIDO OCHOA</span>
+                    <span class="ruta-detalle">Medellín → Necoclí</span>
+                  </div>
+                  <div class="precio-info">
+                    <span class="precio">$85.000</span>
+                    <span class="duracion">7h 40min</span>
+                  </div>
+                </div>
+              </div>
+              <!-- Nota de precios promedio -->
+              <div class="precio-disclaimer-buses">
+                <p><strong>📋 Nota importante:</strong> Los precios mostrados son promedios referenciales. Para tarifas exactas, horarios y disponibilidad, consulte las páginas oficiales:</p>
+                <div class="enlaces-oficiales">
+                  <a href="https://pinbus.com" target="_blank" rel="noopener noreferrer">🌐 Pinbus.com</a>
+                  <a href="https://www.gomezhernandez.com" target="_blank" rel="noopener noreferrer">🟢 Gómez Hernández</a>
+                  <a href="https://www.cootransuroccidente.com" target="_blank" rel="noopener noreferrer">🔵 Cootransuroccidente</a>
+                  <a href="https://www.sotrauraba.com" target="_blank" rel="noopener noreferrer">🟡 Sotraurabá</a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- PASO 3: LANCHA A CAPURGANÁ -->
+            <div class="paso-detallado">
+              <div class="paso-header">
+                <div class="paso-numero">3</div>
+                <h3>🚤 Lancha a Capurganá</h3>
+                <p>Desde Turbo → Capurganá</p>
+              </div>
+              
+              <div class="precio-principal">
+                <span class="desde">Precio Fijo</span>
+                <span class="precio-grande">$100.000</span>
+                <span class="precio-nota">Solo ida</span>
+              </div>
+              
+              <div class="empresas-lista">
+                <div class="empresa-bus">
+                  <span class="empresa-logo">⛵</span>
+                  <div class="empresa-info">
+                    <span class="empresa-nombre">NÁUTICA DEL GOLFO</span>
+                    <span class="ruta-detalle">Turbo → Capurganá</span>
+                  </div>
+                  <div class="precio-info">
+                    <span class="precio">$100.000</span>
+                    <span class="duracion">1h 30min</span>
+                  </div>
+                </div>
+                <div class="empresa-bus">
+                  <span class="empresa-logo">🛥️</span>
+                  <div class="empresa-info">
+                    <span class="empresa-nombre">LANCHAS RÁPIDAS</span>
+                    <span class="ruta-detalle">Turbo → Sapzurro (Directo)</span>
+                  </div>
+                  <div class="precio-info">
+                    <span class="precio">$120.000</span>
+                    <span class="duracion">2h 00min</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="necocli-maritima">
+                <h4>🌊 Ruta Marítima Necoclí:</h4>
+                <div class="necocli-maritima-info">
+                  <div class="necocli-lancha">
+                    <span class="empresa-logo">🌊</span>
+                    <div class="empresa-info">
+                      <span class="empresa-nombre">TRANSPORTE MARÍTIMO</span>
+                      <span class="ruta-detalle">Necoclí → Capurganá</span>
+                    </div>
+                    <div class="precio-info">
+                      <span class="precio">$95.000</span>
+                      <span class="duracion">1h 15min</span>
+                    </div>
+                  </div>
+                  <div class="necocli-lancha">
+                    <span class="empresa-logo">🏝️</span>
+                    <div class="empresa-info">
+                      <span class="empresa-nombre">LANCHAS NECOCLÍ</span>
+                      <span class="ruta-detalle">Necoclí → Sapzurro (Directo)</span>
+                    </div>
+                    <div class="precio-info">
+                      <span class="precio">$110.000</span>
+                      <span class="duracion">1h 45min</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- FLECHA ENTRE FILAS -->
+          <div class="flecha-paso">↓</div>
+          
+          <!-- SEGUNDA FILA: 2 PASOS -->
+          <div class="fila-pasos segunda-fila">
+            <!-- PASO 4: CAMINATA A SAPZURRO -->
+            <div class="paso-detallado">
+              <div class="paso-header">
+                <div class="paso-numero">4</div>
+                <h3>🚶‍♂️ Capurganá a Sapzurro</h3>
+                <p>Desde Capurganá → Sapzurro</p>
+              </div>
+              
+              <div class="precio-principal">
+                <span class="desde">Precio Fijo</span>
+                <span class="precio-grande">$20.000</span>
+                <span class="precio-nota">Solo ida</span>
+              </div>
+              
+              <div class="empresas-lista">
+                <div class="empresa-bus">
+                  <span class="empresa-logo">🏖️</span>
+                  <div class="empresa-info">
+                    <span class="empresa-nombre">CAMINATA POR PLAYA</span>
+                    <span class="ruta-detalle">Capurganá → Sapzurro (Sendero costero)</span>
+                  </div>
+                  <div class="precio-info">
+                    <span class="precio">Gratis</span>
+                    <span class="duracion">45-60min</span>
+                  </div>
+                </div>
+                <div class="empresa-bus">
+                  <span class="empresa-logo">⚡</span>
+                  <div class="empresa-info">
+                    <span class="empresa-nombre">LANCHA RÁPIDA LOCAL</span>
+                    <span class="ruta-detalle">Capurganá → Sapzurro (Directo)</span>
+                  </div>
+                  <div class="precio-info">
+                    <span class="precio">$20.000</span>
+                    <span class="duracion">15min</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- DESTINO FINAL -->
+            <div class="paso-final">
+              <div class="paso-numero">🏁</div>
+              <h2>🏖️ ¡Llegaste a Sapzurro!</h2>
+              <p><strong>Disfruta del paraíso</strong></p>
+            </div>
+          </div>
+        </div>
+      
+    </div>
+    
+    
+    <div class="transporte-cta">
+      <a href="como-llegar.html" class="boton-principal cta-enhanced">📍 Ver Guía Completa de Transporte</a>
+      <a href="tel:+573135776863" class="boton-secundario cta-enhanced">📞 Asesoría Personalizada Gratuita</a>
+      <a href="https://wa.me/573135776863?text=Hola,%20necesito%20ayuda%20para%20planificar%20mi%20viaje%20a%20Sapzurro.%20¿Podrían%20ayudarme%20con%20información%20sobre%20transporte%20y%20hospedaje?" class="boton-reserva cta-enhanced" target="_blank" rel="noopener noreferrer">💬 Planificar Viaje por WhatsApp</a>
+    </div>
+    
+  </section>
+
+  <!-- PLANIFICA TU VIAJE -->
+  <section class="planifica-viaje" aria-labelledby="planifica-titulo">
+    <h2 id="planifica-titulo">Planifica tu Viaje a Sapzurro</h2>
+    
+    <!-- Calculadora de Costos -->
+    <div class="calculadora-costos">
+      <h3>🧮 Calculadora de Costos</h3>
+      <div class="calc-container">
+        <div class="calc-inputs">
+          <div class="input-group">
+            <label>Personas:</label>
+            <input type="number" id="personas" min="1" max="10" value="2">
+          </div>
+          <div class="input-group">
+            <label>Días:</label>
+            <input type="number" id="dias" min="1" max="15" value="3">
+          </div>
+          <div class="input-group">
+            <label>Origen:</label>
+            <select id="origen">
+              <option value="medellin">Medellín</option>
+              <option value="bogota">Bogotá</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label>Tipo Hospedaje:</label>
+            <select id="hospedaje">
+              <option value="economico">Económico ($80.000)</option>
+              <option value="jhohaka" selected>🏨 Jhohaka - Recomendado ($100.000)</option>
+              <option value="medio">Medio ($120.000)</option>
+              <option value="premium">Premium ($200.000)</option>
+            </select>
+          </div>
+        </div>
+        <div class="calc-result">
+          <div class="costo-total">
+            <span class="costo-label">Costo Total Estimado:</span>
+            <span class="costo-valor" id="costoTotal">$0</span>
+          </div>
+          <div class="costo-desglose" id="costoDesglose">
+            <!-- Se llena dinámicamente -->
+          </div>
+          <button class="boton-cotizar cta-enhanced" onclick="solicitarCotizacion()">💬 Solicitar Cotización</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Información Práctica -->
+    <div class="info-grid">
+      <div class="info-card">
+        <div class="info-icon">🌡️</div>
+        <h3>Clima Tropical</h3>
+        <div class="info-details">
+          <p><strong>Temperatura:</strong> 26°C - 32°C</p>
+          <p><strong>Humedad:</strong> 80-85%</p>
+          <p><strong>Temporada seca:</strong> Diciembre - Marzo</p>
+          <p class="info-tip">💡 Clima cálido todo el año, ideal para actividades acuáticas</p>
+        </div>
+      </div>
+      <div class="info-card">
+        <div class="info-icon">📅</div>
+        <h3>Mejor Época para Visitar</h3>
+        <div class="info-details">
+          <p><strong>Temporada alta:</strong> Diciembre - Abril</p>
+          <p><strong>Menos lluvia:</strong> Enero - Marzo</p>
+          <p><strong>Avistamiento fauna:</strong> Todo el año</p>
+          <p class="info-tip">🌟 Reserva con anticipación en temporada alta</p>
+        </div>
+      </div>
+      <div class="info-card">
+        <div class="info-icon">🎒</div>
+        <h3>Qué Llevar</h3>
+        <div class="info-details">
+          <p><strong>Protección:</strong> Protector solar FPS 50+, repelente</p>
+          <p><strong>Ropa:</strong> Ligera, traje de baño, sombrero</p>
+          <p><strong>Calzado:</strong> Cómodo, antideslizante, sandalias</p>
+          <p class="info-tip">🧴 Productos biodegradables para proteger el ecosistema</p>
+        </div>
+      </div>
+      <div class="info-card">
+        <div class="info-icon">⚠️</div>
+        <h3>Recomendaciones Importantes</h3>
+        <div class="info-details">
+          <p><strong>Efectivo:</strong> Llevar suficiente dinero en efectivo</p>
+          <p><strong>Equipaje:</strong> Máximo 10kg por persona en lanchas</p>
+          <p><strong>Documentos:</strong> Cédula de ciudadanía obligatoria</p>
+          <p class="info-tip">📱 Señal limitada - informa a familiares antes del viaje</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Itinerario Sugerido -->
+    <div class="itinerario-sugerido">
+      <h3>📋 Itinerario Sugerido (3 días)</h3>
+      <div class="itinerario-timeline">
+        <div class="dia-itinerario">
+          <div class="dia-numero">Día 1</div>
+          <div class="dia-contenido">
+            <h4>Llegada y Exploración</h4>
+            <ul>
+              <li>🛬 Llegada a Capurganá</li>
+              <li>🚶 Caminata a Sapzurro (15 min)</li>
+              <li>🏨 Check-in hospedaje</li>
+              <li>🏖️ Tarde en Playa La Miel</li>
+              <li>🌅 Atardecer en el malecón</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dia-itinerario">
+          <div class="dia-numero">Día 2</div>
+          <div class="dia-contenido">
+            <h4>Aventura y Naturaleza</h4>
+            <ul>
+              <li>🌄 Amanecer en Punta Espada</li>
+              <li>🏊 Snorkel en La Miel</li>
+              <li>🥾 Caminata ecológica</li>
+              <li>🍽️ Almuerzo típico</li>
+              <li>🚤 Tour en lancha</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dia-itinerario">
+          <div class="dia-numero">Día 3</div>
+          <div class="dia-contenido">
+            <h4>Cultura y Despedida</h4>
+            <ul>
+              <li>🏘️ Recorrido por el pueblo</li>
+              <li>🛍️ Compras de artesanías</li>
+              <li>📸 Sesión fotográfica</li>
+              <li>🍤 Almuerzo de mariscos</li>
+              <li>✈️ Regreso</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ELEMENTOS DE CONFIANZA -->
+  <section class="confianza" aria-labelledby="confianza-titulo">
+    <h2 id="confianza-titulo">Sapzurro Reconocido</h2>
+    <div class="confianza-stats">
+      <div class="stat">
+        <div class="stat-numero">15,000+</div>
+        <div class="stat-texto">Visitantes Anuales</div>
+      </div>
+      <div class="stat">
+        <div class="stat-numero">4.8★</div>
+        <div class="stat-texto">Calificación Promedio</div>
+      </div>
+      <div class="stat">
+        <div class="stat-numero">95%</div>
+        <div class="stat-texto">Recomendación</div>
+      </div>
+      <div class="stat">
+        <div class="stat-numero">24/7</div>
+        <div class="stat-texto">Atención Turística</div>
+      </div>
+    </div>
+    <div class="certificaciones">
+      <div class="certificacion">
+        <div class="cert-icon">🏆</div>
+        <p>Destino Sostenible<br><small>Ministerio de Turismo 2023</small></p>
+      </div>
+      <div class="certificacion">
+        <div class="cert-icon">🌿</div>
+        <p>Reserva Natural<br><small>Protegida desde 1995</small></p>
+      </div>
+      <div class="certificacion">
+        <div class="cert-icon">🛡️</div>
+        <p>Zona Segura<br><small>Policía Turística</small></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN DESTACADOS -->
+  <section class="destacados" aria-labelledby="destacados-titulo">
+    <h2 id="destacados-titulo">¿Por qué visitar Sapzurro?</h2>
+    <div class="destacados-grid">
+      <div class="destacado">
+        <div class="destacado-img">
+          <img src="img/Imgane2.jpg" alt="Playas cristalinas" loading="lazy">
+        </div>
+        <h3>Playas cristalinas</h3>
+        <p>Disfruta de aguas turquesas y arenas blancas en un entorno natural único.</p>
+      </div>
+      <div class="destacado">
+        <div class="destacado-img">
+          <img src="img/Imgane3.jpg" alt="Naturaleza exuberante" loading="lazy">
+        </div>
+        <h3>Naturaleza exuberante</h3>
+        <p>Explora selvas, senderos y una biodiversidad sorprendente.</p>
+      </div>
+      <div class="destacado">
+        <div class="destacado-img">
+          <img src="img/Imgane4.jpg" alt="Cultura local" loading="lazy">
+        </div>
+        <h3>Cultura local</h3>
+        <p>Vive la hospitalidad y tradiciones de una comunidad auténtica.</p>
+      </div>
+      <div class="destacado">
+        <div class="destacado-img">
+          <img src="img/gastronomia.jpg" alt="Gastronomía local" loading="lazy">
+        </div>
+        <h3>Gastronomía local</h3>
+        <p>Saborea platos típicos del Caribe y del Pacífico, frescos y deliciosos.</p>
+      </div>
+      <div class="destacado">
+        <div class="destacado-img">
+          <img src="img/aventura.jpg" alt="Aventuras acuáticas" loading="lazy">
+        </div>
+        <h3>Aventuras acuáticas</h3>
+        <p>Practica snorkel, buceo o paseos en lancha en aguas cristalinas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDER DE IMÁGENES -->
+  <section class="slider-section" aria-labelledby="slider-titulo">
+    <h2 id="slider-titulo">Descubre Sapzurro en Imágenes</h2>
+    <div class="slider" id="slider">
+      <div class="slide active">
+        <img src="img/Imgane2.jpg" alt="Playa principal de Sapzurro" loading="lazy">
+        <div class="slide-caption">Playa principal de Sapzurro</div>
+      </div>
+      <div class="slide">
+        <img src="img/Imgane3.jpg" alt="Senderos naturales" loading="lazy">
+        <div class="slide-caption">Senderos naturales</div>
+      </div>
+      <div class="slide">
+        <img src="img/Imgane4.jpg" alt="Atardecer en la bahía" loading="lazy">
+        <div class="slide-caption">Atardecer en la bahía</div>
+      </div>
+      <div class="slide">
+        <img src="img/Imgane5.jpg" alt="Cultura local" loading="lazy">
+        <div class="slide-caption">Cultura local</div>
+      </div>
+      <button class="slider-btn prev" aria-label="Anterior">&#10094;</button>
+      <button class="slider-btn next" aria-label="Siguiente">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- VIDEOS -->
+  <section class="videos-section" aria-labelledby="videos-titulo">
+    <h2 id="videos-titulo">Videos de Sapzurro</h2>
+    <div class="videos-grid">
+      <div class="video-item">
+        <div class="video-frame">
+          <iframe src="https://www.youtube.com/embed/NHhrDjrmLp4" title="Explora Sapzurro desde el aire" frameborder="0" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <div class="video-caption">Explora Sapzurro desde el aire</div>
+      </div>
+      <div class="video-item">
+        <div class="video-frame">
+          <iframe src="https://www.youtube.com/embed/dD11c7Go7yQ" title="Cultura y tradiciones" frameborder="0" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <div class="video-caption">Cultura y tradiciones</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN TESTIMONIOS -->
+  <section class="testimonios" aria-labelledby="testimonios-titulo">
+    <h2 id="testimonios-titulo">Testimonios de visitantes</h2>
+    <div class="testimonios-grid">
+      <div class="testimonio">
+        <div class="testimonio-avatar">👩‍💼</div>
+        <blockquote>"Sapzurro superó mis expectativas, la naturaleza es increíble y la gente muy amable."</blockquote>
+        <div class="estrellas">★★★★★</div>
+        <cite>- Ana G.</cite>
+      </div>
+      <div class="testimonio">
+        <div class="testimonio-avatar">👨‍💻</div>
+        <blockquote>"Las playas son espectaculares y la comida deliciosa. ¡Volveré!"</blockquote>
+        <div class="estrellas">★★★★★</div>
+        <cite>- Luis M.</cite>
+      </div>
+      <div class="testimonio">
+        <div class="testimonio-avatar">👩‍🎨</div>
+        <blockquote>"Un lugar mágico, perfecto para desconectarse y disfrutar de la naturaleza."</blockquote>
+        <div class="estrellas">★★★★★</div>
+        <cite>- Camila R.</cite>
+      </div>
+      <div class="testimonio">
+        <div class="testimonio-avatar">👨‍🏫</div>
+        <blockquote>"La experiencia en Sapzurro fue inolvidable. ¡Altamente recomendado!"</blockquote>
+        <div class="estrellas">★★★★★</div>
+        <cite>- Jorge P.</cite>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Modal de Publicidad -->
+  <div id="modalPublicidad" class="modal-publicidad" role="dialog" aria-modal="true" aria-labelledby="modalPubliTitulo">
+    <div class="modal-contenido">
+      <span id="cerrarModal" class="modal-cerrar" aria-label="Cerrar">&times;</span>
+      <h2 id="modalPubliTitulo">¡Nueva promoción en Sapzurro!</h2>
+      <p>Reserva tu hospedaje este mes y recibe un tour gratuito por la bahía.<br>
+      <a href="promociones.html" class="boton" style="margin-top:1rem;">Ver promoción</a></p>
+    </div>
+  </div>
+
+  <!-- Notificación tipo toast para promociones -->
+  <div id="toastPromo" class="toast-promo" role="alert" aria-live="polite">
+    <span class="toast-text">
+      🎉 ¡Nueva promoción! Reserva este mes y recibe un tour gratuito por la bahía.
+      <a href="promociones.html" class="toast-link">Ver promoción</a>
+    </span>
+    <span id="toastClose" class="toast-close" aria-label="Cerrar">&times;</span>
+  </div>
+
+  <!-- FACEBOOK INTEGRATION ELEGANTE -->
+  <section class="facebook-feed-moderna" aria-labelledby="facebook-titulo">
+    <!-- La integración elegante se carga dinámicamente desde facebook-elegant-integration.js -->
+    <div class="facebook-direct-link">
+      <!-- Contenido será reemplazado por la integración elegante -->
+    </div>
+  </section>
+
+  <!-- MAPA INTERACTIVO DE SAPZURRO AMPLIADO -->
+  <section class="mapa-section-expanded" aria-labelledby="mapa-titulo">
+    <div class="mapa-header-expanded">
+      <h2 id="mapa-titulo">Ubicación y Puntos de Interés</h2>
+      <p class="mapa-subtitle">Explora los lugares más hermosos de Sapzurro</p>
+    </div>
+    
+    <div class="mapa-content-expanded">
+      <div id="mapa-sapzurro" class="mapa-container-large"></div>
+      
+      <div class="puntos-interes-grid">
+        <div class="punto-interes">
+          <div class="punto-icon">🏖️</div>
+          <h4>Playa Principal</h4>
+          <p>Arena blanca y aguas cristalinas perfectas para relajarse</p>
+        </div>
+        
+        <div class="punto-interes">
+          <div class="punto-icon">🌊</div>
+          <h4>Sendero Costero</h4>
+          <p>Caminata escénica hacia Capurganá por la playa</p>
+        </div>
+        
+        <div class="punto-interes">
+          <div class="punto-icon">🐠</div>
+          <h4>Arrecife de Coral</h4>
+          <p>Snorkeling y buceo con vida marina diversa</p>
+        </div>
+        
+        <div class="punto-interes">
+          <div class="punto-icon">🌅</div>
+          <h4>Mirador del Atardecer</h4>
+          <p>Vista panorámica espectacular al final del día</p>
+        </div>
+        
+        <div class="punto-interes">
+          <div class="punto-icon">🏠</div>
+          <h4>Pueblo de Pescadores</h4>
+          <p>Cultura auténtica y gastronomía local</p>
+        </div>
+        
+        <div class="punto-interes">
+          <div class="punto-icon">🌴</div>
+          <h4>Selva Tropical</h4>
+          <p>Biodiversidad única y senderos ecológicos</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="enhanced-footer" id="footer">
+  <div class="footer-container">
+    <!-- Información principal -->
+    <div class="footer-section footer-main">
+      <div class="footer-logo">
+        <h3>🏝️ Sapzurro Paraíso de Todos</h3>
+        <p>Tu destino caribeño perfecto en la frontera con Panamá</p>
+      </div>
+      
+      <div class="footer-contact">
+        <h4>📞 Contacto Directo</h4>
+        <div class="contact-items">
+          <a href="tel:+573135776863" class="contact-item">
+            <span class="contact-icon">📱</span>
+            <span>+57 313 577 6863</span>
+          </a>
+          <a href="mailto:sapzurroparaisodetodos@gmail.com" class="contact-item">
+            <span class="contact-icon">✉️</span>
+            <span>sapzurroparaisodetodos@gmail.com</span>
+          </a>
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <span>Sapzurro, Chocó, Colombia</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Enlaces rápidos -->
+    <div class="footer-section footer-links">
+      <h4>🔗 Enlaces Rápidos</h4>
+      <ul class="footer-menu">
+        <li><a href="index.html">🏠 Inicio</a></li>
+        <li><a href="hospedaje.html">🏨 Hospedaje</a></li>
+        <li><a href="como-llegar.html">🚤 Cómo Llegar</a></li>
+        <li><a href="galeria.html">📸 Galería</a></li>
+        <li><a href="contacto.html">📞 Contacto</a></li>
+      </ul>
+      
+      <h4>🎯 Servicios</h4>
+      <ul class="footer-menu">
+        <li><a href="#transporte">🚌 Transporte</a></li>
+        <li><a href="#actividades">🏊 Actividades</a></li>
+        <li><a href="#tours">🗺️ Tours</a></li>
+        <li><a href="#reservas">📅 Reservas</a></li>
+      </ul>
+    </div>
+
+    <!-- Redes sociales y horarios -->
+    <div class="footer-section footer-social">
+      <h4>🌐 Síguenos</h4>
+      <div class="social-links">
+        <a href="https://www.facebook.com/Sapzurro1" target="_blank" rel="noopener noreferrer" class="social-link facebook">
+          <span>📘</span> Facebook
+        </a>
+        <a href="https://wa.me/573135776863" target="_blank" rel="noopener noreferrer" class="social-link whatsapp">
+          <span>💬</span> WhatsApp
+        </a>
+        <a href="https://instagram.com/sapzurro" target="_blank" rel="noopener noreferrer" class="social-link instagram">
+          <span>📷</span> Instagram
+        </a>
+      </div>
+      
+      <div class="footer-hours">
+        <h4>🕒 Horarios de Atención</h4>
+        <div class="hours-info">
+          <div class="hour-item">
+            <span>📞 Teléfono:</span>
+            <span>7:00 AM - 9:00 PM</span>
+          </div>
+          <div class="hour-item">
+            <span>💬 WhatsApp:</span>
+            <span>24/7 Disponible</span>
+          </div>
+          <div class="hour-item">
+            <span>✉️ Email:</span>
+            <span>Respuesta en 2-4 horas</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Información adicional -->
+    <div class="footer-section footer-info">
+      <h4>ℹ️ Información Útil</h4>
+      <div class="info-grid">
+        <div class="info-item">
+          <span class="info-icon">🌡️</span>
+          <div>
+            <strong>Clima:</strong>
+            <span>28-32°C todo el año</span>
+          </div>
+        </div>
+        <div class="info-item">
+          <span class="info-icon">💰</span>
+          <div>
+            <strong>Moneda:</strong>
+            <span>Peso Colombiano (COP)</span>
+          </div>
+        </div>
+        <div class="info-item">
+          <span class="info-icon">🗣️</span>
+          <div>
+            <strong>Idioma:</strong>
+            <span>Español</span>
+          </div>
+        </div>
+        <div class="info-item">
+          <span class="info-icon">🕐</span>
+          <div>
+            <strong>Zona Horaria:</strong>
+            <span>GMT-5</span>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Barra inferior -->
+  <div class="footer-bottom">
+    <div class="footer-bottom-content">
+      <div class="copyright">
+        <p>&copy; <span id="year"></span> <strong>Sapzurro Paraíso de Todos</strong>. Todos los derechos reservados.</p>
+        <p class="footer-subtitle">Desarrollado con ❤️ para promover el turismo sostenible en el Caribe colombiano</p>
+      </div>
+      
+      <div class="footer-badges">
+        <span class="badge">🌿 Turismo Sostenible</span>
+        <span class="badge">🏆 Certificado de Calidad</span>
+        <span class="badge">🛡️ Sitio Seguro</span>
+      </div>
+    </div>
+  </div>
+</footer>
+  <!-- Critical scripts loaded immediately -->
+  <script src="script.js"></script>
+  
+  <!-- Mobile menu functionality -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const menuToggle = document.getElementById('menuToggle');
+      const menuList = document.getElementById('menuList');
+      
+      if (menuToggle && menuList) {
+        menuToggle.addEventListener('click', function() {
+          menuList.classList.toggle('active');
+          const isOpen = menuList.classList.contains('active');
+          menuToggle.setAttribute('aria-label', isOpen ? 'Cerrar menú' : 'Abrir menú');
+          menuToggle.textContent = isOpen ? '✕' : '☰';
+        });
+        
+        // Close menu when clicking on a link
+        const menuLinks = menuList.querySelectorAll('a');
+        menuLinks.forEach(link => {
+          link.addEventListener('click', () => {
+            menuList.classList.remove('active');
+            menuToggle.setAttribute('aria-label', 'Abrir menú');
+            menuToggle.textContent = '☰';
+          });
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+          if (!menuToggle.contains(event.target) && !menuList.contains(event.target)) {
+            menuList.classList.remove('active');
+            menuToggle.setAttribute('aria-label', 'Abrir menú');
+            menuToggle.textContent = '☰';
+          }
+        });
+      }
+    });
+  </script>
+  
+  <!-- Essential scripts only -->
+  <script src="js/transport-prices-2025.js"></script>
+  <script src="js/cost-calculator.js" defer></script>
+  <script src="js/whatsapp-widget.js" defer></script>
+  <script src="js/facebook-elegant-integration.js" defer></script>
+  <script src="js/language-switcher-simple.js" defer></script>
+  <script src="js/interactive-map.js" defer></script>
+</body>
+</html>

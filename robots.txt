@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://sapzurro.com/sitemap.xml
+
+# Crawl-delay for better server performance
+Crawl-delay: 1
+
+# Allow all search engines to index images
+User-agent: Googlebot-Image
+Allow: /img/
+
+# Block access to admin or private areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.log$
+
+# Allow social media crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
