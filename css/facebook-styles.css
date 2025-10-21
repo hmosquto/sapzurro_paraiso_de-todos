@@ -1,0 +1,291 @@
+/* Estilos para Facebook Direct Link - Mejorado */
+.facebook-direct-link {
+  margin-top: 1rem;
+  background: #ffffff;
+  border: 2px solid #1877f2;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 20px rgba(24, 119, 242, 0.1);
+  text-align: center;
+}
+
+.fb-direct-content h3 {
+  margin: 0 0 0.75rem 0;
+  font-size: 1.3rem;
+  color: #1877f2;
+  font-weight: 700;
+}
+
+.fb-direct-content p {
+  margin: 0 0 1.25rem 0;
+  color: #65676b;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.fb-direct-actions {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.fb-main-btn, .fb-photos-btn {
+  padding: 0.6rem 1.25rem;
+  background: #1877f2;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-width: 140px;
+  justify-content: center;
+}
+
+.fb-photos-btn {
+  background: #42b883;
+}
+
+.fb-main-btn:hover {
+  background: #166fe5;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(24, 119, 242, 0.3);
+}
+
+.fb-photos-btn:hover {
+  background: #369870;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(66, 184, 131, 0.3);
+}
+
+.fb-info {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  font-size: 0.85rem;
+  color: #65676b;
+  flex-wrap: wrap;
+}
+
+/* Estilos para botones de Facebook interactivos */
+.fb-action {
+  background: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #65676b;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 6px;
+}
+
+.fb-action:hover {
+  background: #f2f3f5;
+  color: #1877f2;
+}
+
+.fb-action.liked {
+  color: #1877f2;
+  font-weight: bold;
+}
+
+.fb-badge {
+  background: #42b883 !important;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* Mejorar la integración visual con el resto del sitio */
+.facebook-feed-moderna {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 16px;
+  margin: 2rem 0;
+}
+
+.facebook-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.fb-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.fb-icon {
+  font-size: 2rem;
+}
+
+.fb-badge {
+  background: #42b883 !important;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.fb-subtitle {
+  color: #65676b;
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Mejorar los posts de Facebook */
+.facebook-content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.fb-post-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.fb-post-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+}
+
+.fb-post-header {
+  padding: 1rem;
+  border-bottom: 1px solid #e4e6ea;
+}
+
+.fb-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.fb-avatar {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #1877f2, #42b883);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.fb-info h4 {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #1c1e21;
+  font-weight: 600;
+}
+
+.fb-time {
+  font-size: 0.8rem;
+  color: #65676b;
+}
+
+.fb-post-content {
+  padding: 1rem;
+}
+
+.fb-post-content p {
+  margin: 0 0 1rem 0;
+  color: #1c1e21;
+  line-height: 1.4;
+}
+
+.fb-post-image {
+  margin: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.fb-post-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.fb-post-actions {
+  padding: 0.75rem 1rem;
+  border-top: 1px solid #e4e6ea;
+  display: flex;
+  justify-content: space-around;
+}
+
+.facebook-cta {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.fb-follow-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: #1877f2;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  margin-bottom: 1rem;
+}
+
+.fb-follow-btn:hover {
+  background: #166fe5;
+  transform: translateY(-1px);
+}
+
+.fb-stats {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  font-size: 0.9rem;
+  color: #65676b;
+}
+
+@media (max-width: 768px) {
+  .facebook-feed-moderna {
+    padding: 1.5rem 1rem;
+  }
+  
+  .facebook-content-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .fb-direct-actions {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .fb-info {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .fb-stats {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .fb-brand {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
