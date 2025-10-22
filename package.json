@@ -1,0 +1,22 @@
+{
+  "name": "sapzurro-optimization",
+  "version": "1.0.0",
+  "description": "Optimización del sitio web de Sapzurro",
+  "main": "optimize-images.js",
+  "scripts": {
+    "optimize-images": "node optimize-images.js",
+    "minify-css": "node minify-css.js",
+    "minify-js": "node minify-js.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "sharp": "^0.32.0",
+    "imagemin": "^8.0.1",
+    "imagemin-webp": "^7.0.0",
+    "clean-css-cli": "^5.6.1",
+    "uglify-js": "^3.17.4",
+    "glob": "^8.1.0"
+  },
+  "author": "",
+  "license": "MIT"
+}

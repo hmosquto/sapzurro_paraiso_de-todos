@@ -5908,3 +5908,55 @@ textarea:focus {
         height: 50px;
     }
 }
+
+/* Estilos para el botón de WhatsApp en el footer */
+.social-links .whatsapp {
+    background: #25D366;
+    color: white;
+    position: relative;
+    overflow: visible;
+    transition: all 0.3s ease;
+}
+
+.social-links .whatsapp:hover {
+    background: #128C7E;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+}
+
+.social-links .whatsapp .tooltip {
+    visibility: hidden;
+    width: 160px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+.social-links .whatsapp .tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
+
+.social-links .whatsapp:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}

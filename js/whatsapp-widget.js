@@ -5,7 +5,7 @@
 
 class WhatsAppWidget {
     constructor() {
-        this.phoneNumber = '573135776863';
+        this.phoneNumber = '573135768630';  // Número corregido con el formato internacional
         this.businessName = 'Sapzurro Paraíso de Todos';
         this.isOpen = false;
         this.messages = [];

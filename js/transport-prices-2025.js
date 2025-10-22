@@ -2,7 +2,7 @@
 class TransportPrices2025 {
     constructor() {
         this.baseYear = 2025;
-        this.inflationRate = 0.08; // 8% anual estimado para Colombia
+        this.inflationRate = 0.05; // 5% anual ajustado para reflejar mejor la realidad actual
         this.seasonalMultipliers = {
             high: 1.3,    // Diciembre, Enero, Semana Santa, Junio-Julio
             medium: 1.1,  // Febrero, Marzo, Mayo, Agosto, Noviembre
@@ -11,10 +11,10 @@ class TransportPrices2025 {
         
         this.basePrices2024 = {
             flights: {
-                pacifica_travel: 185000,  // Medellín-Acandí
-                satena_acandi: 165000,    // Satena directo a Acandí
-                bogota_monteria: 220000,  // Bogotá-Montería + conexión
-                medellin_monteria: 195000 // Medellín-Montería + conexión
+                pacifica_travel: 280000,  // Medellín-Acandí (precio actualizado 2025)
+                satena_acandi: 250000,    // Satena directo a Acandí (precio actualizado 2025)
+                bogota_monteria: 320000,  // Bogotá-Montería + conexión (precio actualizado 2025)
+                medellin_monteria: 280000 // Medellín-Montería + conexión (precio actualizado 2025)
             },
             buses: {
                 gomez_hernandez: 55000,   // Medellín-Turbo

@@ -3,11 +3,407 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mantenimiento - Sapzurro Paraíso de Todos</title>
-  <meta name="description" content="Página en mantenimiento. Estamos mejorando tu experiencia en Sapzurro.">
-  <meta http-equiv="refresh" content="0;url=maintenance.html">
+  <title>Contacto - Sapzurro Paraíso de Todos</title>
+  <meta name="description" content="Contáctanos para más información sobre tu viaje a Sapzurro. Estamos aquí para ayudarte a planificar tu experiencia inolvidable.">
+  <meta name="keywords" content="Sapzurro, contacto, información, viaje, turismo, Chocó, Colombia, alojamiento, transporte">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sapzurro.com/contacto.html">
+  <meta property="og:title" content="Contacto - Sapzurro Paraíso de Todos">
+  <meta property="og:description" content="Contáctanos para más información sobre tu viaje a Sapzurro. Estamos aquí para ayudarte a planificar tu experiencia inolvidable.">
+  <meta property="og:image" content="https://sapzurro.com/img/contacto-sapzurro.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://sapzurro.com/contacto.html">
+  <meta property="twitter:title" content="Contacto - Sapzurro Paraíso de Todos">
+  <meta property="twitter:description" content="Contáctanos para más información sobre tu viaje a Sapzurro. Estamos aquí para ayudarte a planificar tu experiencia inolvidable.">
+  <meta property="twitter:image" content="https://sapzurro.com/img/contacto-sapzurro.jpg">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/contacto-styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="img/favicon.ico">
+  
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contacto - Sapzurro Paraíso de Todos",
+    "description": "Ponte en contacto con nosotros para más información sobre tu viaje a Sapzurro.",
+    "url": "https://sapzurro.com/contacto.html",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Sapzurro Paraíso de Todos",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://sapzurro.com/img/logo-sapzurro.png"
+      }
+    }
+  }
+  </script>
 </head>
 <body>
-  <p>Redirigiendo a página de mantenimiento...</p>
+  <!-- Barra de navegación -->
+  <nav class="menu" aria-label="Menú principal" role="navigation" id="navigation">
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+    <ul id="menuList">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="como-llegar.html">Cómo Llegar</a></li>
+      <li><a href="hospedaje.html">Hospedaje</a></li>
+      <li><a href="galeria.html">Galería</a></li>
+      <li><a href="contacto.html" class="active">Contacto</a></li>
+      <li class="language-switcher">
+        <button id="langToggle" class="lang-btn" aria-label="Cambiar idioma">
+          <span class="lang-flag">🇪🇸</span>
+          <span class="lang-text">ES</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Encabezado de la página de contacto -->
+  <header class="contacto-header">
+    <div class="contacto-hero">
+      <h1>Contáctanos</h1>
+      <p>Estamos aquí para ayudarte a planificar tu viaje perfecto a Sapzurro</p>
+    </div>
+  </header>
+
+  <main class="contacto-container">
+    <div class="contacto-grid">
+      <!-- Formulario de contacto -->
+      <section class="contacto-form-section" aria-labelledby="form-title">
+        <h2 id="form-title">Envíanos un mensaje</h2>
+        <form id="contactoForm" class="contacto-form">
+          <div class="form-group">
+            <label for="nombre">Nombre completo *</label>
+            <input type="text" id="nombre" name="nombre" required aria-required="true">
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Correo electrónico *</label>
+            <input type="email" id="email" name="email" required aria-required="true">
+          </div>
+          
+          <div class="form-group">
+            <label for="telefono">Teléfono (opcional)</label>
+            <input type="tel" id="telefono" name="telefono">
+          </div>
+          
+          <div class="form-group">
+            <label for="asunto">Asunto *</label>
+            <select id="asunto" name="asunto" required aria-required="true">
+              <option value="" disabled selected>Selecciona un asunto</option>
+              <option value="reserva">Consulta sobre reservas</option>
+              <option value="alojamiento">Información sobre alojamiento</option>
+              <option value="transporte">Consulta sobre transporte</option>
+              <option value="tours">Información sobre tours</option>
+              <option value="otro">Otra consulta</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="mensaje">Mensaje *</label>
+            <textarea id="mensaje" name="mensaje" rows="6" required aria-required="true"></textarea>
+          </div>
+          
+          <div class="form-group form-checkbox">
+            <input type="checkbox" id="privacidad" name="privacidad" required aria-required="true">
+            <label for="privacidad">He leído y acepto la <a href="#" class="privacy-link">Política de Privacidad</a> *</label>
+          </div>
+          
+          <button type="submit" class="btn-enviar">Enviar mensaje</button>
+        </form>
+      </section>
+      
+      <!-- Información de contacto -->
+      <aside class="contacto-info" aria-labelledby="info-title">
+        <div class="info-card">
+          <h2 id="info-title">Información de contacto</h2>
+          <p>Estamos disponibles para responder tus preguntas y ayudarte a planificar tu viaje perfecto a Sapzurro.</p>
+          
+          <div class="info-item">
+            <div class="info-icon">📍</div>
+            <div class="info-text">
+              <h3>Ubicación</h3>
+              <p>Sapzurro, Chocó, Colombia</p>
+              <a href="https://maps.google.com/maps?q=Sapzurro+Choco+Colombia" target="_blank" rel="noopener noreferrer" class="map-link">Ver en el mapa</a>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <div class="info-icon">📱</div>
+            <div class="info-text">
+              <h3>Teléfono / WhatsApp</h3>
+              <p><a href="tel:+573135776863">+57 313 577 6863</a></p>
+              <a href="https://wa.me/573135776863?text=Hola%20Sapzurro%2C%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n" class="whatsapp-link" target="_blank" rel="noopener noreferrer">
+                <span>💬</span> +57 313 577 6863
+              </a>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <div class="info-icon">✉️</div>
+            <div class="info-text">
+              <h3>Correo electrónico</h3>
+              <p><a href="mailto:sapzurroparaisodetodos@gmail.com">sapzurroparaisodetodos@gmail.com</a></p>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <div class="info-icon">⏰</div>
+            <div class="info-text">
+              <h3>Horario de atención</h3>
+              <p>Lunes a Domingo: 8:00 AM - 8:00 PM (Hora Colombia)</p>
+            </div>
+          </div>
+          
+          <div class="social-links">
+            <h3>Síguenos</h3>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/Sapzurro1" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <span class="social-icon">📘</span>
+              </a>
+              <a href="https://www.instagram.com/sapzurro" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <span class="social-icon">📷</span>
+              </a>
+              <a href="https://wa.me/573135776863" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="social-icon-link">
+                <span class="social-icon" aria-hidden="true">💬</span>
+                <span class="sr-only">WhatsApp: +57 313 577 6863</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+    
+    <!-- Mapa de ubicación -->
+    <section class="mapa-ubicacion" aria-labelledby="mapa-title">
+      <h2 id="mapa-title">Nuestra ubicación</h2>
+      <div id="mapa" class="mapa-container"></div>
+    </section>
+    
+    <!-- Preguntas frecuentes -->
+    <section class="faq-section" aria-labelledby="faq-title">
+      <h2 id="faq-title">Preguntas frecuentes</h2>
+      <div class="faq-container">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq1">
+            ¿Cuál es la mejor época para visitar Sapzurro?
+            <span class="faq-icon">+</span>
+          </button>
+          <div id="faq1" class="faq-answer" hidden>
+            <p>La mejor época para visitar Sapzurro es durante la temporada seca, que va desde diciembre hasta marzo. Durante estos meses, disfrutarás de días soleados y menos lluvias, lo que es ideal para actividades al aire libre y playa.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq2">
+            ¿Cómo puedo llegar a Sapzurro desde Medellín?
+            <span class="faq-icon">+</span>
+          </button>
+          <div id="faq2" class="faq-answer" hidden>
+            <p>Desde Medellín, puedes tomar un vuelo a Apartadó o Montería (aproximadamente 1 hora) y luego un transporte terrestre a Turbo (3-4 horas). Desde Turbo, hay lanchas rápidas que te llevarán a Sapzurro en aproximadamente 1 hora y media.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq3">
+            ¿Qué debo llevar en mi maleta?
+            <span class="faq-icon">+</span>
+          </button>
+          <div id="faq3" class="faq-answer" hidden>
+            <p>Recomendamos llevar: ropa ligera, traje de baño, protector solar, repelente de insectos, sombrero, gafas de sol, calzado cómodo para caminar, sandalias de agua, toalla de playa, cámara fotográfica y documentos de identidad.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq4">
+            ¿Hay cajeros automáticos en Sapzurro?
+            <span class="faq-icon">+</span>
+          </button>
+          <div id="faq4" class="faq-answer" hidden>
+            <p>No hay cajeros automáticos en Sapzurro. Te recomendamos llevar suficiente efectivo desde Turbo o Apartadó. Algunos lugares pueden aceptar pagos electrónicos, pero la conexión a internet puede ser limitada.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="enhanced-footer" id="footer">
+    <div class="footer-container">
+      <!-- Información principal -->
+      <div class="footer-section footer-main">
+        <div class="footer-logo">
+          <h3>🏝️ Sapzurro Paraíso de Todos</h3>
+          <p>Tu destino caribeño perfecto en la frontera con Panamá</p>
+        </div>
+        
+        <div class="footer-contact">
+          <h4>📞 Contacto Directo</h4>
+          <div class="contact-items">
+            <a href="tel:+573135776863" class="contact-item">
+              <span class="contact-icon">📱</span>
+              <span>+57 313 577 6863</span>
+            </a>
+            <a href="mailto:sapzurroparaisodetodos@gmail.com" class="contact-item">
+              <span class="contact-icon">✉️</span>
+              <span>sapzurroparaisodetodos@gmail.com</span>
+            </a>
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <span>Sapzurro, Chocó, Colombia</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Enlaces rápidos -->
+      <div class="footer-section footer-links">
+        <h4>🔗 Enlaces Rápidos</h4>
+        <ul class="footer-menu">
+          <li><a href="index.html">🏠 Inicio</a></li>
+          <li><a href="hospedaje.html">🏨 Hospedaje</a></li>
+          <li><a href="como-llegar.html">🚤 Cómo Llegar</a></li>
+          <li><a href="galeria.html">📸 Galería</a></li>
+          <li><a href="contacto.html">📞 Contacto</a></li>
+        </ul>
+        
+        <h4>🎯 Servicios</h4>
+        <ul class="footer-menu">
+          <li><a href="#transporte">🚌 Transporte</a></li>
+          <li><a href="#actividades">🏊 Actividades</a></li>
+          <li><a href="#tours">🗺️ Tours</a></li>
+          <li><a href="#reservas">📅 Reservas</a></li>
+        </ul>
+      </div>
+
+      <!-- Redes sociales y horarios -->
+      <div class="footer-section footer-social">
+        <h4>🌐 Síguenos</h4>
+        <div class="social-links">
+          <a href="https://www.facebook.com/Sapzurro1" target="_blank" rel="noopener noreferrer" class="social-link facebook">
+            <span>📘</span> Facebook
+          </a>
+          <a href="https://wa.me/573135768630?text=Hola%20Sapzurro%2C%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n" target="_blank" rel="noopener noreferrer" class="social-link whatsapp">
+            <span>💬</span> +57 313 576 8630
+            <span class="tooltip">¡Chatea por WhatsApp!</span>
+          </a>
+          <a href="https://instagram.com/sapzurro" target="_blank" rel="noopener noreferrer" class="social-link instagram">
+            <span>📷</span> Instagram
+          </a>
+        </div>
+        
+        <div class="footer-hours">
+          <h4>🕒 Horarios de Atención</h4>
+          <div class="hours-info">
+            <div class="hour-item">
+              <span class="day">Lun - Vie:</span>
+              <span class="time">8:00 AM - 8:00 PM</span>
+            </div>
+            <div class="hour-item">
+              <span class="day">Sáb - Dom:</span>
+              <span class="time">9:00 AM - 6:00 PM</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="newsletter">
+          <h4>📩 Suscríbete a nuestro boletín</h4>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Tu correo electrónico" required>
+            <button type="submit">Suscribirse</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="footer-legal">
+        <p>&copy; 2025 Sapzurro Paraíso de Todos. Todos los derechos reservados.</p>
+        <div class="legal-links">
+          <a href="#">Términos y condiciones</a>
+          <span>|</span>
+          <a href="#">Política de privacidad</a>
+          <span>|</span>
+          <a href="#">Aviso legal</a>
+        </div>
+      </div>
+      
+      <div class="footer-credits">
+        <p>Diseñado con ❤️ para mostrar la belleza de Sapzurro</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="js/contacto-scripts.js"></script>
+  <script src="js/menu.js"></script>
+  <script>
+    // Inicialización del mapa
+    document.addEventListener('DOMContentLoaded', function() {
+      // Coordenadas de Sapzurro
+      const sapzurroCoords = [8.6667, -77.3667];
+      
+      // Crear mapa
+      const map = L.map('mapa').setView(sapzurroCoords, 14);
+      
+      // Añadir capa de OpenStreetMap
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(map);
+      
+      // Añadir marcador
+      L.marker(sapzurroCoords)
+        .addTo(map)
+        .bindPopup('Sapzurro, Chocó, Colombia')
+        .openPopup();
+      
+      // Manejo de las preguntas frecuentes
+      const faqQuestions = document.querySelectorAll('.faq-question');
+      
+      faqQuestions.forEach(question => {
+        question.addEventListener('click', () => {
+          const answer = question.nextElementSibling;
+          const isExpanded = question.getAttribute('aria-expanded') === 'true';
+          
+          // Cerrar todas las respuestas
+          document.querySelectorAll('.faq-answer').forEach(ans => {
+            ans.hidden = true;
+          });
+          
+          // Cerrar todos los botones
+          document.querySelectorAll('.faq-question').forEach(q => {
+            q.setAttribute('aria-expanded', 'false');
+            q.querySelector('.faq-icon').textContent = '+';
+          });
+          
+          // Abrir la respuesta seleccionada si no estaba abierta
+          if (!isExpanded) {
+            answer.hidden = false;
+            question.setAttribute('aria-expanded', 'true');
+            question.querySelector('.faq-icon').textContent = '-';
+          }
+        });
+      });
+      
+      // Manejo del formulario de contacto
+      const contactoForm = document.getElementById('contactoForm');
+      if (contactoForm) {
+        contactoForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+          
+          // Aquí iría la lógica para enviar el formulario
+          alert('¡Gracias por tu mensaje! Nos pondremos en contacto contigo pronto.');
+          this.reset();
+        });
+      }
+    });
+  </script>
 </body>
 </html>
